@@ -1,0 +1,25 @@
+From c8178de71125097b7eb0c623e9c9a40cf88a1ec3 Mon Sep 17 00:00:00 2001
+From: Archwizard <archwizard101@gmail.com>
+Date: Wed, 26 Dec 2018 22:43:55 -0800
+Subject: [PATCH] Updated font and size
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 823e79f..9d08526 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Droid Sans Mono:pixelsize=14:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+-- 
+2.20.1
+
