@@ -33,6 +33,8 @@ prepare() {
 	patch -p1 -i "$srcdir/st-solarized-dark-20180411-041912a.diff"
 	patch -p1 -i "$srcdir/st-clipboard-20180309-c5ba9c0.diff"
 	patch -p1 -i "$srcdir/st-archwizardDroidFont-20181226.diff"
+	sed -i '/mkdir -p $(DESTDIR)$(MANPREFIX)\/man1/,+4d' "Makefile"
+
 }
 
 build() {
