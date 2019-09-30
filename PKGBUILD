@@ -21,7 +21,7 @@ source=("$pkgname-$pkgver::https://dl.suckless.org/st/st-$pkgver.tar.gz"
 md5sums=('92135aecdba29300bb2e274a55f5b71e'
          '3a1a347e1489d7bde6b68faff6cc19a0'
          '87f715392760fe62ebba09db4b89113d'
-         'fa0bf6c0dae5a69e3b1916ce093f6aff'
+         '53a430a1b2da077b170279d09abf1b72'
          'bbe056eaed5914f55ccea001ca7f05e9'
          '72227737f6cd831afd014a3613bd559d'
          '7e87286705a5ac141517c83980510353')
